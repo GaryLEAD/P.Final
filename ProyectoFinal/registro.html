@@ -39,37 +39,28 @@
 
     </header>
 
-    <div>
-        <pre
-            style="text-align: left;font-size: 30px;color:dodgerblue;">        Registrarse                               Iniciar Sesión </pre>
-        <!--<form action="" method="GET">!-->
-        <pre>
+    <div id="login-box">
+		<div class="left">
+			<h1>Sign up</h1>
 
+			<input type="text" name="username" placeholder="Username" />
+			<input type="text" name="email" placeholder="E-mail" />
+			<input type="password" name="password" placeholder="Password" />
+			<input type="password" name="password2" placeholder="Retype password" />
 
-                <label for="Nombre"><strong>Nombre:</strong></label> <input type="text" placeholder="Requerido">                                                            <label for="Email"><strong>Email:</strong></label> <input type="email" placeholder="Requerido">                               
-            
-            
+			<input type="submit" name="signup_submit" value="Sign me up" />
+		</div>
 
-                <label for="Apellido"><strong>Apellido:</strong></label> <input type="text" placeholder="Requerido">                                                          <label for="Contraseña"><strong>Contraseña:</strong></label> <input type="password" placeholder="Requerido">
-            
-            
+		<div class="right">
+			<span class="loginwith">Sign in</span>
 
-                <label for="Email"><strong>Email:</strong></label> <input type="email" placeholder="Requerido">                             
-           
-            
+			<input type="text" name="username" placeholder="Username"/>
+			<input type="password" name="password" placeholder="Password" />
 
-                <label for="Contraseña"><strong>Contraseña:</strong></label> <input type="password" placeholder="Requerido">                                
-            
-            
-
-                <label for="fecha de nacimiento"><strong>Fecha de nacimiento:</strong></label> <input type="text" placeholder="Requerido">
-            </pre>
-        <p style="text-align: center;"><input type="submit" value="Verificar"></p>
-        </form>
-    </div>
-
-
-
+			<input type="submit" name="signin_submit" value="Sign in" />
+		</div>
+		<div class="or">OR</div>
+	</div>
 
 </body>
 
