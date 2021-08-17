@@ -1,15 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
-*:focus {
-  outline: none;
-}
-
 
 #login-box {
   position: relative;
   margin: 5% auto;
   width: 600px;
   height: 400px;
-  background:  linear-gradient(to right, hsla(188, 39%, 49%, 0.815), hsla(210, 30%, 24%, 0.788));
+  background:  white;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -39,7 +34,7 @@ input[type="password"] {
   width: 220px;
   height: 32px;
   border: none;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid rgb(31, 158, 218);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -74,11 +69,12 @@ input[type="submit"]:active {
   left: 280px;
   width: 40px;
   height: 40px;
-  background: #DDD;
+  background: #16a085;
+  color: #FFF;
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   line-height: 40px;
-  text-align: center;
+  text-align: center;;
 }
 
 .right {
@@ -101,4 +97,3 @@ input[type="submit"]:active {
   color: black;
   text-align: center;
 }
-
