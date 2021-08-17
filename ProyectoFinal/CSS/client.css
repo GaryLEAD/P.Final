@@ -1,0 +1,155 @@
+
+.profile-avatar .thumbnail a {
+    display: block;
+    position: relative;
+  }
+  
+  .profile-avatar .thumbnail a:before,
+  .profile-avatar .thumbnail a:after {
+    opacity: 0;
+    content: "";
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s
+  }
+  
+  .profile-avatar .thumbnail a:hover:before,
+  .profile-avatar .thumbnail a:hover:after {
+    opacity: 1;
+  }
+  
+  .profile-avatar .thumbnail a:hover:before {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-avatar .thumbnail a:hover:after {
+    content: "\f03e";
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border: 3px dashed #FFF;
+    border-radius: 6px;
+    font: normal normal normal 30px/1 FontAwesome;
+    color: #FFF;
+  }
+  
+  .profile-avatar {
+    width: 135px;
+  }
+  
+  .profile-data {
+    width: calc(100% - 150px);
+    margin-left: 15px;
+  }
+  
+  .profile-data .name {
+    margin-bottom: 15px;
+  }
+  
+  .profile-data .name .lead {
+    margin-bottom: 0;
+  }
+  
+  .profile-data ul {
+    padding-left: 10px
+  }
+  
+  .profile-data ul li strong {
+    display: inline-block;
+    width: 90px;
+  }
+  
+  
+  /* Tabs */
+  
+  .client-data-tabs .nav-tabs li a {
+    background: #E9E9E9;
+    border: 1px solid #DDD;
+    border-bottom: 1px solid transparent;
+    color: #777;
+  }
+  
+  .client-data-tabs .nav-tabs li a:hover,
+  .client-data-tabs .nav-tabs li a:focus {
+    background: #DDD;
+  }
+  
+  .client-data-tabs .nav-tabs li.active a {
+    background: #FFF;
+    color: #000;
+    font-weight: bold
+  }
+  
+  .client-data-tabs .tab-content .tab-pane {
+    padding: 15px;
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-top: 1px solid transparent;
+  }
+  
+  .client-data-tabs .tab-content .tab-pane.collapsed {
+    padding: 0;
+  }
+  
+  
+  /* Notes tab */
+  #Notes ul li {
+   margin: 12px 0; 
+  }
+  
+  /* Files tab */
+  
+  .user-files li {
+    margin-left: -3px;
+    width: 12.5%;
+  }
+  
+  .user-files li a.thumbnail {
+    color: #666;
+  }
+  .user-files li a.thumbnail:hover,
+  .user-files li a.thumbnail:foucs {
+    color: #000 !important;
+    border-color: #000 !important;
+  }
+  .user-files li i {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /*display: block;*/
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .user-files li small {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  
+  /* Registry tab */
+  
+  #crop-target-image {
+    max-width: 400px;
+  }
+
